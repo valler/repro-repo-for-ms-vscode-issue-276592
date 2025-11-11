@@ -1,0 +1,3 @@
+{
+  "extends": "@scope/alice/lib/base/tsconfig.json",
+}

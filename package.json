@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@scope/any",
+  "type": "module",
+  "workspaces": [
+    "alice",
+    "bob/a",
+    "bob/b"
+  ],
+  "scripts": {
+    "check": "npm run check --workspaces --if-present"
+  }
+}

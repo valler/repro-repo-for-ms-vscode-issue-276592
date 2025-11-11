@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "@scope/bob-a",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@scope/alice": "*",
+    "typescript": "^5.9.3"
+  }
+}

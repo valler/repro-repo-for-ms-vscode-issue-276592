@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "@scope/alice",
+  "type": "module",
+  "exports": {
+    "./*/tsconfig.json": "./lib/*/tsconfig.json"
+  }
+}
