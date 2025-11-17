@@ -3,6 +3,7 @@
   "name": "@scope/alice",
   "type": "module",
   "exports": {
-    "./*/tsconfig.json": "./lib/*/tsconfig.json"
+    "./*/tsconfig.json": "./lib/*/tsconfig.json",
+    "./lib/*/tsconfig.json": "./lib/*/tsconfig.json"
   }
 }
